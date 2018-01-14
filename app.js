@@ -17,6 +17,7 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 const dbConnectionString = 'postgres://ezsghdep:sxwpbHDXlBA0z_kmvkNnzgWKkzm4-mFQ@baasu.db.elephantsql.com:5432/ezsghdep';
+const serverPort = 4555;
 
 var db = pgp(dbConnectionString); // database instance;
 
@@ -104,4 +105,7 @@ router.post('/getOriginalUrl', koaBody, async function (ctx, next) {
 
 });
 
-http.createServer(app.callback()).listen(4555);
+http.createServer(app.callback()).listen(serverPort);
+
+console.log(`Server running on port ${serverPort}`);
+
