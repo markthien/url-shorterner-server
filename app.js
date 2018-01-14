@@ -20,6 +20,11 @@ const dbConnectionString = 'postgres://ezsghdep:sxwpbHDXlBA0z_kmvkNnzgWKkzm4-mFQ
 
 var db = pgp(dbConnectionString); // database instance;
 
+/*
+ *
+ * User shortern a Url
+ *
+ */
 router.post('/shortenUrl', koaBody, async function (ctx, next) {
 
 	const url = ctx.request.body.url || null;
@@ -62,6 +67,11 @@ router.post('/shortenUrl', koaBody, async function (ctx, next) {
 
 });
 
+/*
+ *
+ * User retrieve original Url
+ *
+ */
 router.post('/getOriginalUrl', koaBody, async function (ctx, next) {
 
 	let urlCode = ctx.request.body.urlCode || null;
