@@ -1,7 +1,7 @@
 {
-  "name": "keppel",
+  "name": "Url Shorterner Server",
   "version": "1.0.0",
-  "description": "Keppel Test",
+  "description": "Url Shorterner",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
