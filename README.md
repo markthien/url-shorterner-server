@@ -11,3 +11,8 @@ yarn install
 ```
 node app.js
 ```
+### Creators
+####Mark Thien
+
+### Copyright and license
+Code released under the MIT License. Docs released under Creative Commons.
