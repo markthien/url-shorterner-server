@@ -11,6 +11,8 @@ yarn install
 ```
 node app.js
 ```
+#### For the client side, please go to https://github.com/markthien/url-shorterner to install/run
+
 ## Creators
 #### Mark Thien
 
