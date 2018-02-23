@@ -1,7 +1,7 @@
 {
-  "name": "Url Shorterner Server",
+  "name": "Magic Progress Bar Server",
   "version": "1.0.0",
-  "description": "Url Shorterner",
+  "description": "Magic Progress Bar",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
